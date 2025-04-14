@@ -1,0 +1,92 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+  
+.logo-container {
+  text-align: justify; 
+  padding-left: 90px;
+}
+.logo-container2 {
+    position: absolute;  
+    top: 40px;  
+    right: 70px;  
+    padding-right: 0;  
+  }
+  
+header {
+  background-color: #002147; 
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+  
+}
+
+header h1 {
+  font-size: 70px;
+  margin: 0;
+  color: #ff6f61;
+  text-align: center;
+  margin-top: -100px;
+}
+
+header p {
+  font-size: 30px;
+  margin: 5px 0 0;
+  
+}
+
+
+  .categories {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 0 20px;
+  }
+  
+  
+  .category {
+    width: 23%; 
+    text-align: center;
+  }
+  
+  .category summary {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px;
+    cursor: pointer;
+    background-color: #005bac; 
+    color: white;
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .category summary:hover {
+    background-color: #004a99;
+  }
+  
+  .category-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+
+  .restaurant-list {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+  }
+  
+  .restaurant-list li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 17px;
+  }
+  
+  .restaurant-list li:last-child {
+    border-bottom: none;
+  }
